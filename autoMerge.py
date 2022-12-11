@@ -2,9 +2,10 @@ import git
 import os
 from git import Repo
 
-# File: RunGitAutoUpdate_forBlog.py
-# Author: HowardXue https://howiexue.blog.csdn.net/
+# File: autoMerge.py
+# Author: shixin
 
+#current work space
 WORK_PATH = r'C:\Work\xxxx\\'
 # Merge branch name, FROM_BRANCH -> TO_BRANCH
 FROM_BRANCH = 'xxxx'
